@@ -1,0 +1,23 @@
+.products{
+  min-height: 90px;
+
+  border: 3px solid lightgray;
+
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.product{
+  width: 10px;
+  height: 65px;
+
+  border: 3px dot-dot-dash lightgray;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
