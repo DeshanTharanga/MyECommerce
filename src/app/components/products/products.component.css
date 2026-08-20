@@ -1,20 +1,20 @@
 .products{
-  min-height: 90px;
+  min-height: 220px;
 
   border: 3px solid lightgray;
 
-  padding: 10px;
+  padding: 20px;
   display: flex;
   align-items: center;
 
-  gap: 15px;
+  gap: 20px;
 }
 
 .product{
-  width: 10px;
-  height: 65px;
+  width: 100px;
+  height: 130px;
 
-  border: 3px dot-dot-dash lightgray;
+  border: 2px dashed black;
   border-radius: 10px;
 
   display: flex;

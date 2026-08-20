@@ -1,0 +1,8 @@
+.footer {
+  height:80px;
+  border: 3px dashed black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

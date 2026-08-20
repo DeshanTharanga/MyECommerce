@@ -11,10 +11,10 @@
 }
 
 .feature{
-  width: 10px;
+  width: 100px;
   height: 65px;
 
-  border: 3px dot-dot-dash lightgray;
+  border: 3px dashed lightgray;
   border-radius: 10px;
 
   display: flex;

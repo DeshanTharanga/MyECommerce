@@ -1,0 +1,16 @@
+.main-layout{
+  width: 90%;
+  margin: 20px auto;
+
+  display: grid;
+  grid-template-columns: 180px 1fr;
+
+  gap: 20px;
+}
+
+.content-area{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+}
