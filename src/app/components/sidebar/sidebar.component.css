@@ -1,0 +1,31 @@
+.sidebar {
+  height: 550px;
+
+  border: 3px dot-dash black;
+
+  padding: 15px;
+  flex-direction: column;
+
+  gap: 30px;
+}
+
+.side-navigation{
+  height: 320px;
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.offer{
+  height:150px;
+
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
