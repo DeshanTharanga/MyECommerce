@@ -1,9 +1,21 @@
 <div class="sidebar">
-  <div  class="side-navigation">
-    <h2>Side Nav Bar</h2>
-  </div>
+  <div class="category-menu">
+    <div class="category-title">
+      <span>=</span><span>All Categories</span>
+    </div>
 
-  <div class="offer">
-    <h2>Offer</h2>
+    <div class="category-list">
+      @for (category of categories; track category.name){
+        <a href="#">
+          <span>{{category.icon}}</span><span>{{category.name}}</span>
+        </a>
+      }
+
+    </div>
+
+    <a href="#" class="more-categories">
+      <span>More Categories</span>
+      <span>></span>
+    </a>
   </div>
 </div>

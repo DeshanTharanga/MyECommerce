@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { categories } from './sidebar.data';
 
 @Component({
   selector: 'app-sidebar',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class SidebarComponent {
 
+  protected readonly categories = categories;
 }
