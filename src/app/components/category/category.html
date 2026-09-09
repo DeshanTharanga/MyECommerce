@@ -1,0 +1,19 @@
+<h2>Shop By Category</h2>
+
+<div class="categories">
+
+  @for (category of categories; track category.id){
+  <div class="category">
+
+    <div class="category-image">
+      <img src="https://media.gettyimages.com/id/539797403/photo/basketball-on-reflection.jpg?s=2048x2048&w=gi&k=20&c=rHvdSX0rRcMnfuVQ5PXw7niczZHTWDPTYy-LVbYtKWw=" alt="category-image">
+    </div>
+
+    <div class="category-details">
+      <br>
+      <h5>{{category.name}}</h5>
+    </div>
+
+  </div>
+  }
+</div>

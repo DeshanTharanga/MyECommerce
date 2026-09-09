@@ -1,16 +1,20 @@
+<h2>Flash Deals</h2>
 
 <div class="products">
-  <div class="product">
-    Product
-  </div>
 
+  @for (product of products; track product.id) {
   <div class="product">
-    Product
+
+    <div class="product-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTovW8PWjpOGO2E_NSU7B3AcKnpPk-dGohC1WWhHPQabEp5TOSz87PJ7XDe&s=10" alt="pdt-img">
+    </div>
+
+    <div class="product-details">
+    <h4>{{product.name}}</h4>
+    <p class="product-price">LKR {{product.price}}</p>
+    </div>
+
   </div>
-  <div class="product">
-    Product
-  </div>
-  <div class="product">
-    Product
-  </div>
+  }
+
 </div>

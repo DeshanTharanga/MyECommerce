@@ -1,5 +1,5 @@
-.products{
-  min-height: 220px;
+.categories{
+  min-height: 190px;
 
   padding: 20px;
   display: flex;
@@ -8,9 +8,9 @@
   gap: 20px;
 }
 
-.product{
-  width: 175px;
-  height: 250px;
+.category{
+  width: 150px;
+  height: 170px;
 
   border: 2px black solid;
   border-radius: 10px;
@@ -21,26 +21,22 @@
   justify-content: center;
 }
 
-.product:hover{
+.category:hover{
   transform: translateY(-1px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
-.product-image {
-  width: 160px;
-  height: 150px;
+.category-image{
+  width: 130px;
+  height: 110px;
   border-radius: 10px;
   overflow: hidden;
 }
 
-.product-image img {
+.category-image img{
   width: 100%;
   height: 100%;
   display: block;
   object-fit: cover;
   object-position: center;
-}
-
-.product-price{
-  color: orange;
 }

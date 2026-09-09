@@ -1,0 +1,22 @@
+<p>
+  <span style="font-size: 25px; font-weight: 700; margin-right: 16px;">Best Selling </span> Recommended for you</p>
+
+
+<div class="products">
+
+  @for (sellingProduct of sellingProducts; track sellingProduct.id) {
+    <div class="product">
+
+      <div class="product-image">
+        <img src="https://media.gettyimages.com/id/2203481569/photo/washington-wizards-v-toronto-raptors.jpg?s=2048x2048&w=gi&k=20&c=IZqYEooBd7fvEbmGndFa7ozXLexEUa3kA3NjCgiZiTw=" alt="pdt-img">
+      </div>
+
+      <div class="product-details">
+        <h4>{{sellingProduct.name}}</h4>
+        <p class="product-price">LKR {{sellingProduct.price}}</p>
+      </div>
+
+    </div>
+  }
+
+</div>

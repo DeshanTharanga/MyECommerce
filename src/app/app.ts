@@ -6,16 +6,21 @@ import { HeroComponent } from './components/hero/hero.component';
 import { FeatureComponent } from './components/feature/feature.component';
 import { ProductsComponent } from './components/products/products.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { Category } from './components/category/category';
+import { Sellings } from './components/sellings/sellings';
 
 @Component({
   imports: [
     RouterOutlet,
     NavbarComponent,
     SidebarComponent,
-  HeroComponent,
-  FeatureComponent,
-  ProductsComponent,
-  FooterComponent],
+    HeroComponent,
+    FeatureComponent,
+    ProductsComponent,
+    FooterComponent,
+    Category,
+    Sellings,
+  ],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
